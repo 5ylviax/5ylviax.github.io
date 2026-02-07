@@ -65,44 +65,7 @@ footer {
   color: #f2d5cf;
 }
 
-.output {
-  width: 100%;
-  max-width: 80ch;
-  animation: fade 5s;
-}
-
-.typeme {
-  width: 30ch;
-  animation: typing 2s steps(25), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 10px solid #f2d5cf;
-}
-
 img {
     border-radius: 50%;
     width: 150px;
-}
-/* animation */
-
-@keyframes fade {
-  0% { opacity: 0}
-  50% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@keyframes typing {
-  0% { width: 0; }
-  100% { width: 30ch; }
-}
-    
-@keyframes blink {
-  50% { border-color: transparent;}
-}
-
-/* dynamic resizing */
-@media (min-width:600px) {
-  body {
-    font-size: 1.25rem;
-  }
 }
